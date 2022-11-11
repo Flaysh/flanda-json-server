@@ -1,8 +1,13 @@
 {
-  "dependencies": {
-    "json-server": "^0.17.1"
+  "name": "flanda-json-server",
+  "version": "1.0.0",
+  "description": "fake server with fake database",
+  "main": "server.js",
+  "scripts": { 
+    "start": "node server.js"
   },
-  "scripts": {
-    "start": "json-server db.json",
+  "author": "flaysh",
+  "dependencies": {
+    "json-server": "^0.16.3"
   }
 }
